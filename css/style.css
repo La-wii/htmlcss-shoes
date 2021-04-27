@@ -51,7 +51,7 @@ nav ul li a{
     margin-bottom: 30px;
 }
 
-.red .uppercase{
+/* .red .uppercase{
     position: absolute;
     text-transform: uppercase;
     color: yellow;
@@ -60,4 +60,19 @@ nav ul li a{
     left: 50%;   
     transform: translate(-50%, -50%);
     text-align: center;
+} */
+
+.uppercase{
+    position: absolute;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 60px;
+    top: 70%;
+    left: 50%;   
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.green{
+    background-color: green;
 }

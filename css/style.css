@@ -10,12 +10,10 @@
 }
 
 nav{
-    /* height: 80px; */
-    /* background-color: transparent; */
-}
-
-nav ul{
-    padding-left: 80%;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 2;
 }
 
 nav ul li{
@@ -47,7 +45,19 @@ nav ul li a{
 
 .scarpa{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-bottom: 30px;
+}
+
+.red .uppercase{
+    position: absolute;
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 60px;
+    top: 70%;
+    left: 50%;   
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
